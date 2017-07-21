@@ -1,0 +1,17 @@
+#field {
+  width: 1000px;
+  height: 1000px;
+  background: green;
+  
+}
+
+
+    #circle {
+      width: 20px;
+      height: 20px;
+      -webkit-border-radius: 25px;
+      -moz-border-radius: 25px;
+      border-radius: 25px;
+      background: red;
+      position: relative;
+    }

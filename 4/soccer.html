@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Coach Test Exercise</title>
+</head>
+<body>
+
+	<script src="data.js"></script>
+	<script>
+		console.log(data);
+		// data.player_positions.length;
+		for (let i =0; i<1; i++) {
+			for(let j = 0;j<data.player_positions[i].length;j++){
+				for(let k=0; k<3;k++){
+					switch(k) {
+					    case 0:
+					        var playerId = data.player_positions[i][j][k]
+					        break;
+					    case 1:
+					        var coordinateX = data.player_positions[i][j][k]*1000;
+					        break;
+					     case 2:
+					        var coordinateY = data.player_positions[i][j][k]*1000;
+					        break;
+					    default:
+					        console.log("error");
+					}
+					// console.log(data.player_positions[i][j][k]);
+				}
+				// console.log(data.player_positions[i][j]);
+			}
+			// console.log(data.player_positions[i]);
+		}
+
+		console.log(playerId);
+		console.log(coordinateX);
+		console.log(coordinateY);
+	</script>
+</body>
+</html>
