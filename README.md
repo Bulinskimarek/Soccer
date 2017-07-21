@@ -1,7 +1,7 @@
 # Soccer
 Soccer test exercise
 
-Final version available [here](https://bulinskimarek.github.io/Soccer/Final/soccer.html)
+Ostateczna wersja dostępna [tutaj](https://bulinskimarek.github.io/Soccer/Final/soccer.html)
 
 Miałem nadzieję, że jeszcze dziś uda mi się dokończyć zadanie, ale niestety musze wyjechać i przez weekend też nie będę miał jak pracować.
 Dlatego wrzucam to, co udało mi się zrobić wczoraj. Osteteczna wersja jest w pliku *final* Został jeszcze do zrobienia suwak.
